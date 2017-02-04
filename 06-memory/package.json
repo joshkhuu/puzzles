@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "byline": "^5.0.0",
+    "coffee-script": "^1.9.3"
+  },
+  "devDependencies": {
+    "line-by-line": "^0.1.5",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+  }
+}
